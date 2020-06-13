@@ -120,11 +120,11 @@
     <Compile Include="Packages\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_Private.cs" />
     <Compile Include="Packages\com.unity.textmeshpro@2.0.1\Scripts\Runtime\TMPro_UGUI_Private.cs" />
     <None Include="Packages\com.unity.textmeshpro@2.0.1\Scripts\Runtime\Unity.TextMeshPro.asmdef" />
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

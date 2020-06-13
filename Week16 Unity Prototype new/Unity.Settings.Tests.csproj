@@ -67,16 +67,16 @@
     <Compile Include="Packages\com.unity.settings-manager@1.0.0\Tests\Editor\SettingsTests.cs" />
     <None Include="Packages\com.unity.settings-manager@1.0.0\Tests\Editor\Unity.Settings.Editor.Tests.asmdef" />
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -268,7 +268,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Game Design/all AT-1/HairongWU 470798296 code AT-2_ATTEMPT2/Simple.Prototype/3.Final.Files/Part.2.Unity.Project/Week16 Unity Prototype new/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/ghx50/source/repos/Games/Week16 Unity Prototype new/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
