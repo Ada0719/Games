@@ -33,10 +33,11 @@ namespace HairongWu
 			if (isArmorOn)
 			{
 				gameObject.GetComponent<Image>().sprite = GameObject.FindGameObjectWithTag("player").GetComponent<UI>().armorImage;
+				gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
 			}
 			else
 			{
-				gameObject.GetComponent<Image>().sprite = null;
+				gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 0f);
 			}
 		}
 

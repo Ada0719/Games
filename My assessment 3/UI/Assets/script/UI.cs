@@ -34,9 +34,9 @@ namespace HairongWu
         public Sprite WhipImage;
         public Sprite BuleFireImage;
 
-        [Range(1,10)]
+        [Range(1, 10)]
         public int magicCost;
-        [Range(1,2)]
+        [Range(1, 2)]
         public int defaultArmorNumber;
         [HideInInspector]
         public bool magicable;
@@ -44,7 +44,7 @@ namespace HairongWu
         private Dictionary<WeaponType, Sprite> weaponImage;
         private WeaponType equipedWeapon;
 
-        
+
         private int livesNumber;
 
 
@@ -97,9 +97,9 @@ namespace HairongWu
             ChangeWeapon(WeaponType.Javline);
 
             //Reset Mana and Magic
-             AddMana(bottles.Count());
-           CostMana();
-            
+            AddMana(bottles.Count());
+            CostMana();
+
 
             //Reset armor and panties
             armorDurables.Take(defaultArmorNumber).ForEach(a => a.Recover());
@@ -153,7 +153,7 @@ namespace HairongWu
             UpdateWeaponImage();
         }
 
-        
+
 
         public void CostMana()
         {
@@ -163,11 +163,11 @@ namespace HairongWu
                 fullBottles.TakeLast(magicCost).ForEach(b => b.BottleCost());
             }
 
-            magicable=(bottles.Count(b => b.isBottleFull)>=magicCost);
+            magicable = (bottles.Count(b => b.isBottleFull) >= magicCost);
             UpdateMagicImage();
         }
 
-        public void  AddMana(int gainedMana)
+        public void AddMana(int gainedMana)
         {
             var emptyBottles = bottles.Where(b => !b.isBottleFull);
             if (emptyBottles.Count() < gainedMana)
@@ -195,14 +195,14 @@ namespace HairongWu
 
         private void UpdateMagicImage()
         {
-            
+
             if (magicable)
             {
                 magicPanel.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
             }
-           else
+            else
             {
-                magicPanel.GetComponent<Image>().color = new Color(255, 255, 255, 0.5f);
+                magicPanel.GetComponent<Image>().color = new Color(255, 255, 255, 0f);
             }
         }
 

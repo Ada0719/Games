@@ -26,10 +26,12 @@ namespace HairongWu{
             if (isPantiesOn)
             {
                 gameObject.GetComponent<Image>().sprite = GameObject.FindGameObjectWithTag("player").GetComponent<UI>().pantiesImage;
+                gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
             }
             else
             {
-                gameObject.GetComponent<Image>().sprite = null;
+                gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 0f);
+
             }
         }
     }

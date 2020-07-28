@@ -6,37 +6,38 @@ using HairongWu;
 
 namespace HairongWu
 {
-	/// <summary>
-	/// Author: HairongWu
-	/// Description: Behaviour of each life slot
-	/// </summary>
-	public class Life : MonoBehaviour 
-	{
-		[HideInInspector]
-		public bool isLifeOn;
+    /// <summary>
+    /// Author: HairongWu
+    /// Description: Behaviour of each life slot
+    /// </summary>
+    public class Life : MonoBehaviour
+    {
+        [HideInInspector]
+        public bool isLifeOn;
 
-		public void LostLife()
-		{
-			isLifeOn = false;
-			LifeImageUpdae();
-		}
+        public void LostLife()
+        {
+            isLifeOn = false;
+            LifeImageUpdae();
+        }
 
-		public void InitializeLife()
-		{
-			isLifeOn = true;
-			LifeImageUpdae();
-		}
+        public void InitializeLife()
+        {
+            isLifeOn = true;
+            LifeImageUpdae();
+        }
 
-		private void LifeImageUpdae()
-		{
-			if (isLifeOn)
-			{
-				gameObject.GetComponent<Image>().sprite = GameObject.FindGameObjectWithTag("player").GetComponent<UI>().lifeImage;
-			}
-			else
-			{
-				gameObject.GetComponent<Image>().sprite = null;
-			}
-		}
-	}
+        private void LifeImageUpdae()
+        {
+            if (isLifeOn)
+            {
+                gameObject.GetComponent<Image>().sprite = GameObject.FindGameObjectWithTag("player").GetComponent<UI>().lifeImage;
+            }
+            else
+            {
+               
+                gameObject.GetComponent<Image>().color = new Color(255, 255, 255, 0f);
+            }
+        }
+    }
 }
